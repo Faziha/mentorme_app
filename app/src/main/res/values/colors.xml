@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mentor_color">#095859</color>
+    <color name="me_color">#FFD700</color>
+    <color name="tagline_color">#192841</color>
+</resources>
