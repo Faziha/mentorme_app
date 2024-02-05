@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">i200473</string>
-        <string-array name="dropdown_options">
-            <item> Select Country </item>
-            <item>Pakistan</item>
-            <item>Turkey</item>
-            <item>India</item>
-        </string-array>
+    <string-array name="dropdown_options">
+        <item> Select Country </item>
+        <item>Pakistan</item>
+        <item>Turkey</item>
+        <item>India</item>
+    </string-array>
     <string-array name="city_options">
         <item> Select City </item>
         <item>Karachi</item>
