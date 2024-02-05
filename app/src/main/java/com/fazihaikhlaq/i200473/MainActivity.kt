@@ -1,5 +1,6 @@
 package com.fazihaikhlaq.i200473
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableString
@@ -18,5 +19,9 @@ class MainActivity : AppCompatActivity() {
         mSpannableString.setSpan(UnderlineSpan(), 0, mSpannableString.length, 0)
 
         signUptext.text = mSpannableString
+
+        signUptext.setOnClickListener{
+            startActivity(Intent(this,SignUp::class.java))
+        }
     }
 }

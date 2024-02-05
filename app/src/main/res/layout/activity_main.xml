@@ -120,7 +120,9 @@
                     android:layout_weight="1"
                     android:background="@drawable/input_field_bg"
                     android:ems="10"
-                    android:inputType="textEmailAddress"
+                    android:hint="Enter Email"
+                    android:textColorHint="#D2D2D2"
+                    android:paddingLeft="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/email" />
@@ -144,7 +146,9 @@
                     android:layout_marginTop="10dp"
                     android:background="@drawable/input_field_bg"
                     android:ems="10"
-                    android:inputType="textPassword"
+                    android:hint="Enter your password"
+                    android:textColorHint="#D2D2D2"
+                    android:paddingLeft="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/password" />
@@ -161,7 +165,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
                 <Button
-                    android:id="@+id/login_btn"
+                    android:id="@+id/signup_btn"
                     android:layout_width="170dp"
                     android:layout_height="50dp"
                     android:background="@drawable/round_corners"
@@ -186,7 +190,7 @@
                     android:textSize="16dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/login_btn"
+                    app:layout_constraintTop_toBottomOf="@+id/signup_btn"
                     app:layout_constraintVertical_bias="0.609" />
 
                 <TextView
@@ -200,7 +204,7 @@
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/login_btn"
+                    app:layout_constraintTop_toBottomOf="@+id/signup_btn"
                     app:layout_constraintVertical_bias="0.617" />
 
 
