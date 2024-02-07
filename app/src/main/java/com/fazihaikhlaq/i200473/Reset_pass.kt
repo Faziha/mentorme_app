@@ -5,13 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.style.UnderlineSpan
-import android.widget.Button
 import android.widget.TextView
 
-class forgot_pass : AppCompatActivity() {
+class Reset_pass : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_forgot_pass)
+        setContentView(R.layout.activity_reset_pass)
         var Logintext: TextView
         Logintext = findViewById(R.id.textView15)
         var str = "Login"
@@ -23,10 +22,6 @@ class forgot_pass : AppCompatActivity() {
 
         Logintext.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
-        }
-        var send_email = findViewById<Button>(R.id.button12)
-        send_email.setOnClickListener {
-            startActivity(Intent(this,Reset_pass::class.java))
         }
     }
 }
