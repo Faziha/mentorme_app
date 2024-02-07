@@ -23,5 +23,10 @@ class MainActivity : AppCompatActivity() {
         signUptext.setOnClickListener{
             startActivity(Intent(this,SignUp::class.java))
         }
+        var f_pass = findViewById<TextView>(R.id.textView8)
+        f_pass.setOnClickListener{
+            startActivity(Intent(this,forgot_pass::class.java))
+        }
+
     }
 }
