@@ -13,6 +13,13 @@
         android:theme="@style/Theme.I200473"
         tools:targetApi="31">
         <activity
+            android:name=".NavBar"
+            android:exported="false"
+            android:label="@string/title_activity_nav_bar" />
+        <activity
+            android:name=".Mentors"
+            android:exported="false" />
+        <activity
             android:name=".Reset_pass"
             android:exported="false" />
         <activity

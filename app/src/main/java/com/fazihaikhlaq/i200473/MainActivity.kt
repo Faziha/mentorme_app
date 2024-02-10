@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.style.UnderlineSpan
+import android.widget.Button
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -27,6 +28,11 @@ class MainActivity : AppCompatActivity() {
         f_pass.setOnClickListener{
             startActivity(Intent(this,forgot_pass::class.java))
         }
+
+        findViewById<Button>(R.id.signup_btn).setOnClickListener {
+            startActivity(Intent(this,NavBar::class.java))
+        }
+
 
     }
 }
