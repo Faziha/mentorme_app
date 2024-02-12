@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.signup_btn).setOnClickListener {
-            startActivity(Intent(this,NavBar::class.java))
+            startActivity(Intent(this,Mentors::class.java))
         }
 
 
