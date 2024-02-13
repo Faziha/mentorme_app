@@ -8,6 +8,7 @@ import android.os.Handler
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
+import androidx.cardview.widget.CardView
 
 @Suppress("DEPRECATION")
 class Mentors : AppCompatActivity() {
@@ -20,6 +21,10 @@ class Mentors : AppCompatActivity() {
 
         findViewById<LinearLayout>(R.id.search_btn).setOnClickListener{
             startActivity(Intent(this,SearchActivity::class.java))
+        }
+
+        findViewById<CardView>(R.id.cooper_card1).setOnClickListener{
+            startActivity(Intent(this,Book_Session_Activity::class.java))
         }
     }
 }

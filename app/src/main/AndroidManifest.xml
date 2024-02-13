@@ -13,6 +13,9 @@
         android:theme="@style/Theme.I200473"
         tools:targetApi="31">
         <activity
+            android:name=".Book_Session_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Search_Results_Activity"
             android:exported="false" />
         <activity
